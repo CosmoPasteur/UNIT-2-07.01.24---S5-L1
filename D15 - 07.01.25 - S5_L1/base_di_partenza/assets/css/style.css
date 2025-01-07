@@ -240,5 +240,11 @@ footer a {
         margin-left: 20px; /* Spazio tra i link */
         vertical-align: middle;
     }
+    h1{
+        font-size: 5rem;
+    }
+    table{
+        width: 60%;
+    }
 }
 
