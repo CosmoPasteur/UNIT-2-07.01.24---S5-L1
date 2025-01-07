@@ -246,5 +246,10 @@ footer a {
     table{
         width: 60%;
     }
+
+    aside div{
+        display: inline-block;
+        padding-inline: 9%;
+    }
 }
 
