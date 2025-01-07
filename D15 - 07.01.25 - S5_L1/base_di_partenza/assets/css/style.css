@@ -207,17 +207,38 @@ footer a {
     header {
       overflow: hidden;
       padding: 20px;
+      text-align: left;
     }
     header > div {
         display: inline-block;
         vertical-align: middle;
     }
-    nav{
-        float: right;
+    header img {
+        margin-right: 10px; /* Aggiunge uno spazio tra il logo e il testo */
+        vertical-align: middle;
+    }
+    /* Il testo del blog */
+    header p {
+    display: inline-block;
+    vertical-align: middle;
+    }
+    /* Lo stile del menu di navigazione */
+    nav {
+        display: inline-block;
+        float: right; /* Posiziona il menu sulla destra */
+    }
+    /* La lista del menu */
+    nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
     }
     
-    aside div{
+    /* Gli elementi della lista nel menu */
+    nav ul li {
         display: inline-block;
-        width: 33%;
+        margin-left: 20px; /* Spazio tra i link */
+        vertical-align: middle;
     }
 }
+
